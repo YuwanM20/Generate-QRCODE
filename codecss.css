@@ -1,0 +1,82 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+    background-color: #081226;
+}
+#qrimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.btn{
+
+    border: none;
+}
+.btn-generate:hover {
+    background-color: #BBB9B6; 
+}
+  
+.btn-download:hover {
+    background-color: #34E965; 
+  }
+
+.btn-reset:hover {
+    background-color: #F5187C; 
+}
+
+#qrwarna{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+}
+#qrwarna::-webkit-color-swatch {
+    border-radius: 15px;
+    border: none;
+  }
+  #qrwarna::-moz-color-swatch {
+    border-radius: 15px;
+    border: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+      margin-top: 70px;
+      padding: 15px;
+      font-size: 18px;
+    }
+    
+    header {
+      height: 0px;
+    }
+    
+    /* Menyembunyikan sidebar pada layar kecil */
+    .sidebar {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    body {
+      margin-top: 50px;
+      padding: 10px;
+      font-size: 12px;
+    }
+    
+    header {
+      height: 0px;
+    }
+    /* .form-group{
+      
+    } */
+    /* Menyembunyikan sidebar pada layar kecil */
+    .sidebar {
+      display: none;
+    }
+  }
+  
